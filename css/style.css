@@ -177,3 +177,10 @@ License: https://themeforest.net/licenses/standard
       font-size: 11px;
     }
 }
+
+/**********************************/
+/******* 3.0 Schedule *******/
+/**********************************/
+#schedule {
+   position: absolute;
+}
