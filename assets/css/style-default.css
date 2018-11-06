@@ -6744,7 +6744,7 @@ button:hover:after,
   background-size: cover;
 }
 .lgx-banner7 {
-  background: url('http://placehold.it/1920x912') top center no-repeat;
+  background: url('http://themearth.com/demo/html/emeet/view/assets/img/bannar6.jpg') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -9807,7 +9807,7 @@ lgx-zoomInUp
   background: #554bb9;
 }
 .lgx-registration2 {
-  background: url('http://placehold.it/1920x1000') bottom center no-repeat fixed;
+  background: url('../img/registration-style.png') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
