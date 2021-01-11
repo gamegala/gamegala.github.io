@@ -9,7 +9,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=hUh2Uv5_QHA&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=147",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 84,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "I didn't know you could use python to interact with Minecraft! Really good job with the block generation code"
     },
     "ljx20090108@gmail.com": {
@@ -22,7 +24,9 @@ var stuDb = {
         "Video": "https://www.loom.com/share/7775b773d8234ac5ac420f55f2de6e25",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 83,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Really good job with the overall game. Lots of potential for additional features."
     },
     "ttywl8888@gmail.com": {
@@ -35,6 +39,8 @@ var stuDb = {
         "Video": "https://drive.google.com/file/d/1MOKkNBYYYhrUbVLbyxtzvaL-wPKTkKaH/view?usp=sharing",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 76,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -48,6 +54,8 @@ var stuDb = {
         "Video": "https://youtu.be/QC0E3oz3PhA",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -61,7 +69,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=CtkD43kkjyU",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 90,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Really great job in identifying that you could use a function to reduce the amount of redundant code!"
     },
     "963192951@qq.com": {
@@ -74,7 +84,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=8N1Lo_ULQlQ",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 90,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Super in-depth project. Having a presentation helps a lot but I recommend keeping a better track of time"
     },
     "angelinazhao217@gmail.com": {
@@ -87,7 +99,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=-CT_hXsdoyY&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=229&ab_channel=CodingMinds",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 93,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "Very Impressive Project! Really good job in identifying bugs and future improvements. Lots of potential"
     },
     "yqhiee@gmail.com": {
@@ -100,7 +114,9 @@ var stuDb = {
         "Video": "https://youtu.be/zePIp6QA58k",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 85,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Really like the idea of using a dictionary to store the objects and descritions"
     },
     "vivianhyteng@gmail.com": {
@@ -113,7 +129,9 @@ var stuDb = {
         "Video": "https://youtu.be/sp9wUWzg7RI",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 88,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Nice job getting together a clone of Cyberpunk so quickly. Well Done!"
     },
     "judith.jing@gmail.com": {
@@ -126,7 +144,9 @@ var stuDb = {
         "Video": "https://youtu.be/IsOV4rxuDuU",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 94,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "Very impressive project. A lot of work when in this. (Look into exploring databases) Keep it up!"
     },
     "cindyzhenhua@gmail.com": {
@@ -139,7 +159,9 @@ var stuDb = {
         "Video": "https://youtu.be/F44wOi-e694",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 84,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Awesome detailed explanation of the project. Add more assets and a win state!"
     },
     "kevinxu0628@gmail.com": {
@@ -152,6 +174,8 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=5YBgNqZ_K4Y&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=17",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 76,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -165,7 +189,9 @@ var stuDb = {
         "Video": "https://m.youtube.com/watch?v=0nGabqgQ3WA&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=199",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 85,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Appreciate your willingness to use such an intimidating technology"
     },
     "kevinying0712@hotmail.com": {
@@ -178,7 +204,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=JvJ55uUHg9s",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 89,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Appreciate your willingness to use such an intimidating technology"
     },
     "zhangxiaoling@gmail.com": {
@@ -191,7 +219,9 @@ var stuDb = {
         "Video": "https://youtu.be/798HcBUFsqc",
         "Attendence": "Y ",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 95,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "\"Very out of the box thinking, these types of programs are what the world relies on.\""
     },
     "joeycrj@gmail.com": {
@@ -204,7 +234,9 @@ var stuDb = {
         "Video": "https://youtu.be/LK7cTLYJdVA",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 88,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "I'm impressed at the 3D work instead of simply doing a 2D game."
     },
     "srhzhg@gmail.com": {
@@ -217,7 +249,9 @@ var stuDb = {
         "Video": "https://youtu.be/Nhl676zQR34",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 88,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "\"Using AI and Neural learning is the future, using this and applying to music was very impressive. \""
     },
     "tinayao0716@gmail.com": {
@@ -230,7 +264,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=KEu2DrSa_zA",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 85,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Great concept and the game is absolutly playable."
     },
     "amanda_1109@msn.com": {
@@ -243,7 +279,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=hmMag6k0C0I&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=236",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 84,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"Excellent program that is useful, to be able to command other applications to perform tasks are very important\""
     },
     "carolgeng1226@gmail.com": {
@@ -256,7 +294,9 @@ var stuDb = {
         "Video": "https://youtu.be/Pbt3G8SHiQ4",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 83,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "This looks like a good start for a racing game -- level design is a very critical part for a lot of games and is a good skill to practice.  I liked the symmetry in your level"
     },
     "qianjing0822@outlook.com": {
@@ -269,7 +309,9 @@ var stuDb = {
         "Video": "https://youtu.be/aN4h2pMGO9k",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 89,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Great understanding of the development. Interesting game concept."
     },
     "peteryang022106@gmail.com": {
@@ -282,7 +324,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=4hElv0yWNXk",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 87,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Liked the candy concept of the game. Great understanding of code portion."
     },
     "wenwen8210@gmail.com": {
@@ -295,7 +339,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=XsXudRb-us0&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=2",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 81,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Very intriguing game paths with different choices. Liked the different end result based on player choice."
     },
     "lucasjosh33514@gmail.com": {
@@ -308,6 +354,8 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=fQMZeNf15hs",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 76,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -321,6 +369,8 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=BnuMMr7wKos&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=240",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -334,7 +384,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=Knrjbv7wxbw",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 97,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "Great combination of mixing two games. Expansive character ability and understanding of code."
     },
     "mindy1969@126.com": {
@@ -347,6 +399,8 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=uQJY14jwDS0",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -360,7 +414,9 @@ var stuDb = {
         "Video": "https://youtu.be/F4GxnsTUPX4",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 94,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "\"Excellent work integrating advanced technoligies like WebGL, WebSockets, and NodeJS to produce a polished and working game, with lots of though given to engineering design!\""
     },
     "jing102508@gmail.com": {
@@ -373,7 +429,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=xWWVDT_N73Y",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 90,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "\"Excellent work integrating with the Discord API, and focusing on modularity for future expansion!\""
     },
     "hongyandu@gmail.com": {
@@ -386,7 +444,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=Fu-eylvyuAY&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=23",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 84,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"Great work integrating an open source plugin, it is always a challege to read documentation and learn how to use something that someone else built.\""
     },
     "catherineyx227@gmail.com": {
@@ -399,7 +459,9 @@ var stuDb = {
         "Video": "https://youtu.be/JimYItDg96Y",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 82,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Great work getting out of your comfort zone and learning a new technology!"
     },
     "ellyzhang3@126.com": {
@@ -412,6 +474,8 @@ var stuDb = {
         "Video": "https://youtu.be/01vlmIY83Ws",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -425,6 +489,8 @@ var stuDb = {
         "Video": "https://youtube.com/watch?v=LfdPAErgdNE&feature=share",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -438,7 +504,9 @@ var stuDb = {
         "Video": "https://youtu.be/osfcZTVqBF8",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 87,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "A nicely made Markov Chain based Next Word Prediction -- the ideas of future works were good"
     },
     "lingw3307@gmail.com": {
@@ -451,7 +519,9 @@ var stuDb = {
         "Video": "https://youtu.be/bh9qzWYABgU",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 86,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"A good core for a turn based RPG -- I think that you should spend some time balancing and adding some element of randomness, because as is, there is no drama (no good luck or bad luck, you always know what you are getting)\""
     },
     "jchang9912@yahoo.com": {
@@ -464,7 +534,9 @@ var stuDb = {
         "Video": "https://youtu.be/6l4YvRsMjT0",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 89,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "A well made minimax algorithm for Tic-Tac-Toe -- I think it would be interesting to try it out in other games and see how it does"
     },
     "shichunjing1234@163.com": {
@@ -477,7 +549,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=uwtWCWYgoWs",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 95,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "You seem to have done a good job reimplementing Dust2 and in creating new assets for an FPS"
     },
     "apexwing2013@gmail.com": {
@@ -490,7 +564,9 @@ var stuDb = {
         "Video": "https://youtu.be/ce3pgt0Ua-U",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 91,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Nice implementation.For Futher development of the game try to create a mobile app using flutter"
     },
     "piao1936@163.com": {
@@ -503,7 +579,9 @@ var stuDb = {
         "Video": "https://youtu.be/iy2ctEab5qY",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 81,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "Good implementation try using different page ranking and web crawling techniques to fix the ranking problem"
     },
     "jinge111505@gmail.com": {
@@ -516,7 +594,9 @@ var stuDb = {
         "Video": "https://youtu.be/RQuGRh5mpJ4",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 96,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "really impressed with implementation.for further development try to convert into a app for mobile devices."
     },
     "janez93@hotmail.com": {
@@ -529,7 +609,9 @@ var stuDb = {
         "Video": "https://youtu.be/fq44dSp-kHg",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 81,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"nice try.also try to add the symbols like the ace,queen etc into the game and try to make the game graphical.\""
     },
     "jordanchen2005@gmail.com": {
@@ -542,7 +624,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=Q4WGnjyb0II&feature=emb_title&ab_channel=CodingMinds",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 82,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"Good implementation.couple of suggestions add a reset button to get a blank screen and also try to add more styulus like pen, pencil ,brush etc.\""
     },
     "jackgao05@gmail.com": {
@@ -555,7 +639,9 @@ var stuDb = {
         "Video": "https://youtu.be/xmCz6RghJFc",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 92,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "\"This is a great format for teaching disaster safety in different situations. I thought the progression of the game was really spot on for learning. One small thing, the object prompts should probably take up less space in the UI. \""
     },
     "a13910302819@gmail.com": {
@@ -568,7 +654,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=rsxkSf6BM1w",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 86,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"Super cool idea to incorporate comment sentiment analysis in the score along with the actual product rating. Nice clean UI for dispalying the products. It would be interesting to figure out how to get the loading times down, maybe there could be some caching? \""
     },
     "john.xiao@outlook.com": {
@@ -581,7 +669,9 @@ var stuDb = {
         "Video": "https://youtu.be/HAdt7FdZZXA",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 87,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "\"Great work producing a polished and super useful end-to-end app. As you're moving to eh app store, definitely fine-tuning the how fast the bar increases and decreases is really important. Make sure to collect some data in real life situations of people who are gaming and sleepy. \""
     },
     "ljin89@gmail.com": {
@@ -594,7 +684,9 @@ var stuDb = {
         "Video": "https://youtu.be/H9e9Ez9rUUk",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 97,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "\"Nicely polished, and detail oriented driving tutorial with an impressive use of events to simulate real driving. \""
     },
     "czhou948@gmail.com": {
@@ -607,7 +699,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=z2WnCyhR8S4&list=PLSO4tiuu6d-GeiD4ZL1uItJEkep9mhi6l&index=153",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 85,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "\"Great start to a fun blackjack game. A few things to take it to the next level: Make the card draw probabailites equal to a 52 card deck; As you said in your next steps, allow for multiple sessions so players can experience their winnings going up and down across bets. \""
     },
     "sha_zhang@yahoo.com": {
@@ -620,7 +714,9 @@ var stuDb = {
         "Video": "https://youtu.be/j9mlgdKjnIQ",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 96,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "\"This was a really cool project, I loved how you integrated so many third party tools and libraries into your project. Also I really liked how much thought went into the user experience especially when you were determining how to exit the distracting task. I loved the data and competitor analysis in your video. \""
     },
     "wuguoqing@toptexltd.com": {
@@ -633,6 +729,8 @@ var stuDb = {
         "Video": "https://youtu.be/KWl6VDhfqMc",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 76,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -646,7 +744,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=qn4FkE_tzVo",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "First Prize",
+        "Score": 93,
+        "Rank": "Top 8%",
+        "Award": "First Place Prize",
         "Comment": "Good code structure using multiple classes to split up the logic really helps!"
     },
     "li3223526426@gmail.com": {
@@ -659,6 +759,8 @@ var stuDb = {
         "Video": "https://youtu.be/-ocza4AvUbM",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     },
@@ -672,7 +774,9 @@ var stuDb = {
         "Video": "https://youtu.be/SMqWp5uf5FU",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 88,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "Great creativity with items and good use of java.util.Random"
     },
     "joeyzhuo678@yahoo.com": {
@@ -685,7 +789,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=YRbvzRNVQI8&feature=youtu.be",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Third Prize",
+        "Score": 82,
+        "Rank": "Top 28%",
+        "Award": "Third Place Prize",
         "Comment": "This was a really cool idea with tons of potential"
     },
     "dingruoxi0921@gmail.com": {
@@ -698,7 +804,9 @@ var stuDb = {
         "Video": "https://www.youtube.com/watch?v=SiuANEvldDM&feature=youtu.be",
         "Attendence": "Y",
         "Division": "Division G9-12",
-        "Award": "Second Prize",
+        "Score": 91,
+        "Rank": "Top 19%",
+        "Award": "Second Place Prize",
         "Comment": "\"This was a great use of external libraries and a very useful project idea, give me this in a Chrome extension and I'm sold!\""
     },
     "pingpendroy@cox.net": {
@@ -711,6 +819,8 @@ var stuDb = {
         "Video": "https://youtu.be/EzVAQ5BGXYg",
         "Attendence": "N",
         "Division": "Division G9-12",
+        "Score": 75,
+        "Rank": "Top 42%",
         "Award": "Finalist",
         "Comment": "No show"
     }
