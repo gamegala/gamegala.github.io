@@ -26,7 +26,7 @@ function showRes() {
 					'<tr><td>Division</td><td>' + student.Division + '</td></tr>' + 
 					'<tr><td>Score</td><td>' + student.Score + '</td></tr>' + 
 					'<tr><td>Rank</td><td>' + student.Rank + '</td></tr>' + 
-					'<tr><td>Award</td><td><b>' + student.Award + '</b></td></tr>' + 
+					'<tr><td>Award</td><td><b style="color: red;">' + student.Award + '</b></td></tr>' + 
 					'<tr><td>Judge Comment</td><td>' + student.Comment + '</td></tr><br>';
 			}
 		}
