@@ -20,11 +20,11 @@ function showRes() {
 		
 				document.getElementById("result_table").innerHTML += 
 					'<tr><td>Name</td><td>' + student.FirstName + ' ' + student.LastName + '</td></tr>' + 
-					'<tr><td>Grade</td><td>' + student.GradeLevel + '</td></tr>' + 
-					'<tr><td>School</td><td>' + student.School + '</td></tr>' + 
+					'<tr><td>Grade</td><td>' + student.GradeLevel + '</td></tr>' + 					
 					'<tr><td>Project Title</td><td>' + student.Title + '</td></tr>' + 
+					'<tr><td>Video</td><td><a href="'+ student.Video + '">' + student.Video + '</a></td></tr>' + 
 					'<tr><td>Division</td><td>' + student.Division + '</td></tr>' + 
-					'<tr><td>Score</td><td>' + student.Score + '</td></tr>' + 
+					'<tr><td>Score</td><td>' + student.Score + '/100</td></tr>' + 
 					'<tr><td>Rank</td><td>' + student.Rank + '</td></tr>' + 
 					'<tr><td>Award</td><td><b style="color: red;">' + student.Award + '</b></td></tr>' + 
 					'<tr><td>Judge Comment</td><td>' + student.Comment + '</td></tr><br>';
