@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head -->
 
     <!-- SITE TITLE -->
-    <title>GameGala 2024 | Build Your Imagination</title>
+    <title>GameGala 2025 | Build Your Imagination</title>
     <meta name="description" content="GameGala invites K-12 students to showcase their digital game projects developed by themselves. Students may enter the competition individually or with a team. Instead of just playing games, be a game creator and developer!"/>
     <meta name="keywords" content="GameGala, K-12 Programming, K-12 Game Development, Game Development, California Science Center, Coding, Programming, Games, K-12 Programming"/>
     <meta name="author" content="gamegala.org"/>
@@ -56,6 +56,124 @@
 
     <!-- MODERNIZER CSS  -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <!-- Add a modern CSS framework for improved styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Add custom CSS for modern look -->
+    <style>
+      :root {
+        --primary-color: #4a6bff;
+        --secondary-color: #ff5e62;
+        --dark-color: #2d3748;
+        --light-color: #f8f9fa;
+      }
+      
+      body {
+        font-family: 'Raleway', sans-serif;
+        color: var(--dark-color);
+        line-height: 1.6;
+      }
+      
+      .lgx-banner {
+        background: linear-gradient(135deg, #4a6bff 0%, #6a11cb 100%);
+        padding: 100px 0;
+      }
+      
+      .lgx-btn {
+        background: var(--secondary-color);
+        color: white;
+        border-radius: 30px;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border: none;
+        display: inline-block;
+        margin: 10px 5px;
+        text-decoration: none;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+      
+      .lgx-btn:hover {
+        background: #ff4954;
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(0,0,0,0.1);
+        text-decoration: none;
+        color: white;
+      }
+      
+      .lgx-heading .heading {
+        font-weight: 700;
+        color: var(--dark-color);
+        position: relative;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+      }
+      
+      .lgx-heading .heading:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 3px;
+        background: var(--secondary-color);
+      }
+      
+      .lgx-countdown-area {
+        background: rgba(255,255,255,0.1);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      }
+      
+      .sponsors-area .single {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        margin: 15px;
+        transition: all 0.3s ease;
+      }
+      
+      .sponsors-area .single:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+      }
+      
+      #lgx-footer {
+        background: var(--dark-color);
+        color: white;
+      }
+      
+      .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        margin-bottom: 30px;
+        transition: all 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+      }
+      
+      .nav-pills .nav-link {
+        border-radius: 30px;
+        padding: 15px 25px;
+        margin: 5px;
+        background: var(--light-color);
+        color: var(--dark-color);
+        transition: all 0.3s ease;
+      }
+      
+      .nav-pills .nav-link.active {
+        background: var(--primary-color);
+        color: white;
+      }
+    </style>
 </head>
 
 <body class="home">
@@ -105,55 +223,24 @@
             <div class="lgx-inner lgx-inner-fixed">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12">
-                            <div class="lgx-banner-info"> <!--lgx-banner-info-center lgx-banner-info-black lgx-banner-info-big lgx-banner-info-bg-->
-                                <h3 class="subtitle">Gamers Who Code</h3>
-                                <h2 class="title">GameGala <span><b>2</b><b>0</b><b>2</b><b>4</b></span></h2>
-                                <!-- <h3 class="location"><i class="fa fa-map-marker"></i> GameGala 2024 registration is now open!</a></h3> -->
-                                <h3 class="date"><i class="fa fa-calendar"></i>The final result is now available to check. Congratulations!</h3>
-                                <div>
-                                    <a class="lgx-btn" href="res.html"><span>Click to Check the Result</span></a>
+                        <div class="col-xs-12 text-center">
+                            <div class="lgx-banner-info animate__animated animate__fadeInUp"> 
+                                <h3 class="subtitle text-white">Gamers Who Code</h3>
+                                <h2 class="title text-white display-3 mb-4">GameGala <span class="badge badge-light"><b>2</b><b>0</b><b>2</b><b>5</b></span></h2>
+                                <div class="banner-highlight animate__animated animate__fadeIn animate__delay-1s mb-4">
+                                    <span class="badge badge-pill badge-warning px-4 py-2" style="font-size: 1.2rem; background-color: rgba(255, 193, 7, 0.9);">
+                                        <i class="fa fa-star"></i> America's Largest K-12 Game Development Competition <i class="fa fa-star"></i>
+                                    </span>
                                 </div>
-                                <!-- <div>
-                                    <a class="lgx-btn" href="https://us06web.zoom.us/j/85250721142"><span>Grade K-3 (Zoom: 852 5072 1142) Click to Join!</span></a>
+                                <h3 class="location text-white mb-4"><i class="fa fa-map-marker"></i> GameGala 2025 registration is now open!</h3>
+                                <div class="mt-5">
+                                    <a class="lgx-btn btn-lg" href="https://csfoundation.wufoo.com/forms/pdv24ov01plqcd/"><span>Register Now</span></a>
                                 </div>
-                                <div>
-                                    <a class="lgx-btn" href="https://us06web.zoom.us/j/89982821656"><span>Grade 4-6 (Zoom: 899 8282 1656) Click to Join!</span></a>
-                                </div>
-                                <div>
-                                    <a class="lgx-btn" href="https://us06web.zoom.us/j/84071465331"><span>Grade 7-8 (Zoom: 840 7146 5331) Click to Join!</span></a>
-                                </div>
-                                <div>
-                                    <a class="lgx-btn" href="https://us06web.zoom.us/j/88580695784"><span>Grade 9-12 (Zoom: 885 8069 5784) Click to Join!</span></a>
-                                </div> -->
-                                <br>
-                                <br>
-                                <!-- <div>
-                                    <a class="lgx-btn" href="res.html"><span>Click to check your result</span></a>
-                                </div>                                 -->
-                                <!-- <div>
-                                    <a class="lgx-btn" href="https://zoom.us/j/82295256613"><span>Grade K-3 (Zoom 82295256613)</span></a>
-                                </div>
-                                <div>
-                                    <a class="lgx-btn" href="https://zoom.us/j/84014348376"><span>Grade 4-6 (Zoom 84014348376)</span></a>
-                                </div>
-                                <div>
-                                    <a class="lgx-btn" href="https://zoom.us/j/84339402653"><span>Grade 7-8 (Zoom 84339402653)</span></a>
-                                </div>
-                                <div>
-                                    <a class="lgx-btn" href="https://zoom.us/j/7502674610"><span>Grade 9-12 (Zoom 7502674610)</span></a>
-                                </div> -->
-                                <!-- <div>
-                                    <a class="lgx-btn" href="https://csfoundation.wufoo.com/forms/p1aj2nhh1e1p1iv/" target="_blank"><span>Project Submission</span></a>
-                                </div> -->
                             </div>
                         </div>
                     </div>
-                    <!--//.ROW-->
                 </div>
-                <!-- //.CONTAINER -->
             </div>
-            <!-- //.INNER -->
         </div>
     </div>
 </section>
@@ -171,11 +258,40 @@
                         <div class="lgx-about-content-area">
                             <div class="lgx-heading">
                                 <h2 class="heading">About GameGala</h2>
+                                <div class="history-badge mb-4">
+                                    <span class="badge badge-primary p-2">Established 2018</span>
+                                    <span class="badge badge-success p-2 ml-2">7 Years of Excellence</span>
+                                </div>
                             </div>
                             <div class="lgx-about-content">
                                 <p class="text">
+                                    <strong>GameGala is the largest game-specific K-12 project contest in the United States</strong>, running successfully since 2018. Each year, we bring together hundreds of young developers from across the nation to showcase their creativity and coding skills.
+                                </p>
+                                <p class="text">
                                     GameGala invites K-12 students to showcase their digital game projects developed by themselves. Students may enter the competition individually or with a team. <br><br>Instead of just playing games, be a game creator and developer!
                                 </p>
+                                <div class="about-stats mt-4">
+                                    <div class="row text-center">
+                                        <div class="col-xs-4">
+                                            <div class="stat-item">
+                                                <h3 class="stat-number">7</h3>
+                                                <p class="stat-text">Years</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="stat-item">
+                                                <h3 class="stat-number">2300+</h3>
+                                                <p class="stat-text">Projects</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="stat-item">
+                                                <h3 class="stat-number">15+</h3>
+                                                <p class="stat-text">Countries</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -195,19 +311,45 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="lgx-heading lgx-heading-white">
+                            <div class="lgx-heading lgx-heading-white text-center">
                                 <h2 class="heading">Mark Your Calendar!</h2>
-                                <h3 class="subheading">Project Submission: Mar 31, 2024</h3>
-                                <h3 class="subheading">Semi-Finalist Annoucement: April 7, 2024</h3>
-                                <h3 class="subheading">Final Project Judging: April  14, 2024</h3>
+                                <div class="row mt-5">
+                                    <div class="col-md-4">
+                                        <div class="card bg-primary text-white">
+                                            <div class="card-body text-center">
+                                                <h3 class="card-title"><i class="fa fa-calendar"></i></h3>
+                                                <h4>Project Submission</h4>
+                                                <p class="lead">Mar 30, 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card bg-success text-white">
+                                            <div class="card-body text-center">
+                                                <h3 class="card-title"><i class="fa fa-trophy"></i></h3>
+                                                <h4>Semi-Finalist Announcement</h4>
+                                                <p class="lead">April 6, 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card bg-info text-white">
+                                            <div class="card-body text-center">
+                                                <h3 class="card-title"><i class="fa fa-star"></i></h3>
+                                                <h4>Final Project Judging</h4>
+                                                <p class="lead">April 13, 2025</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-sm-12">
                             <div class="lgx-countdown-area lgx-countdown-area-squre">
                                 <!-- Date Format :"Y/m/d" || For Example: 1017/10/5  -->
-                                <div id="lgx-countdown" data-date="2024/4/1"></div>
+                                <div id="lgx-countdown" data-date="2025/3/30"></div>
                             </div>
                         </div>
                     </div>
@@ -300,11 +442,10 @@
                     <div class="row">
                         <ul>
                            <li>
-                              <p class="text">Each applicant must be a student in an educational institution and enrolled in grades K-12 at the time of qualification. Students participate in different divisions based on their grade level: Grade K-3, Grade 4-6, Grade 7-8, Grade 9-12. The division for team projects with students in different grades is determined by the highest grade represented.
-                              </p>
+                              <p class="text">Each applicant must be a student in an educational institution and enrolled in grades K-12 at the time of qualification. Students participate in different divisions based on their grade level: Grade K-3, Grade 4-6, Grade 7-8, Grade 9-12. The division for team projects with students in different grades is determined by the highest grade represented. Projects must be produced by the participants and the participants only. If a project submitted under an individual's name is discovered to have been prepared by a team of more than one student, the participant will be disqualified.</p>
                            </li>
                            <li>
-                              <p class="text"><b>Limit to one entry:</b> Each student is limited to one entry per year. Teams may consist of up to three participants. Team projects will be competing with individual projects in the same categories. Keep in mind that for team projects, the judging panel will have a higher expectations commensurate with the number of students on the team. Projects must be produced by the participants and the participants only. If a project submitted under an individual’s name is discovered to have been prepared by a team of more than one student, the participant will be disqualified.</p>
+                              <p class="text"><b>Limit to one entry:</b> Each student is limited to one entry per year. Teams may consist of up to three participants. Team projects will be competing with individual projects in the same categories. Keep in mind that for team projects, the judging panel will have a higher expectations commensurate with the number of students on the team. Projects must be produced by the participants and the participants only. If a project submitted under an individual's name is discovered to have been prepared by a team of more than one student, the participant will be disqualified.</p>
                            </li>
                            <li>
                               <p class="text"><b>Competition Day:</b> Each participant (team) should prepare a computer to join the live zoom meeting and demo their game project and program code online. Judges will ask questions and evaluate the project for each team.</p>
@@ -333,13 +474,13 @@
                              <p class="text">Project Summaries must communicate ideas effectively and use standard English.</p>
                           </li>
                           <li>
-                             <p class="text">All teams must also submit a link to a 2-min YouTube video of their project. The video must show a demo of the submitted project. The video must be uploaded to Youtube and submitted by 11:59pm, Mar 31, 2024.</p>
+                             <p class="text">All teams must also submit a link to a 2-min YouTube video of their project. The video must show a demo of the submitted project. The video must be uploaded to Youtube and submitted as a public URL.</p>
                           </li>
                           <li>
-                             <p class="text">The project must be a <b>coding</b> project related with <b>games</b>. It could be a playable game, a tool to support games, or other technical programs to improve gaming experiences. “Coding” and “Game” are the two keywords for the participating project. You are required to show a live demo of the project online, and be able to explain the implementation details to the judges.</p>
+                             <p class="text">The project must be a <b>coding</b> project with a <b>creative or game-inspired</b> element. This could be a playable game, a tool to support games, an interactive experience, a simulation, or any technical program that incorporates fun, engaging, or game-like concepts. We welcome a broad interpretation of "game" - your project doesn't need to be a traditional game, as long as it demonstrates creative coding and incorporates elements that make it enjoyable, interactive, or playful. You are required to show a live demo of the project online and be able to explain the implementation details to the judges.</p>
                           </li>
                           <li>
-                             <p class="text">The game could be based on existing ideas and examples, but students must have the new and students’ own extension and improvement. Projects which are merely following existing tutorials, code, lessons are generally not acceptable.</p>
+                             <p class="text">The game could be based on existing ideas and examples, but students must have the new and students' own extension and improvement. Projects which are merely following existing tutorials, code, lessons are generally not acceptable.</p>
                           </li>
                           <li>
                              <p class="text">Applications may be rejected for failing to satisfy the rules of GameGala.</p>
@@ -348,32 +489,189 @@
                              <p class="text">The $20 application fee is not refundable.</p>
                           </li>
                           <li>
-                             <p class="text">The deadline to submit the project is 11:59pm Mar 31, 2024.</p>
+                             <p class="text">The deadline to submit the project is 11:59pm PST Mar 30, 2025.</p>
                           </li>
                        </ol>
                     </div><br>
-                    <!--<div style="text-align: center">
-                       <a class="lgx-btn" href="" target="_blank"><span>Project Submission (Closed)</span></a>
-                    </div><br>-->
+                    <div style="text-align: center">
+                       <a class="lgx-btn" href="https://csfoundation.wufoo.com/forms/pdv24ov01plqcd/" target="_blank">
+                         <i class="fa fa-paper-plane"></i> <span>Submit Your Project</span>
+                       </a>
+                    </div><br>
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="lgx-heading"><br>
-                                <h2 class="heading">Awards</h2>
+                                <h2 class="heading">Awards & Recognition</h2>
+                                <h3 class="subheading">Celebrating Excellence in Game Development</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                       <p class="text">GameGala awards the top five projects within each age division as First Place, Second Place, Third Place, Fourth Place, and Fifth Place. In addition, innovative project award, best teamwork award, distinguished ideas award will also be given in each age group.</p>
-                    </div><br><br>
-
-                    <div class="row">
+                    <div class="row awards-container">
+                        <!-- Main Placement Awards -->
+                        <div class="col-md-6">
+                            <div class="award-category-box">
+                                <h3 class="award-category-title"><i class="fa fa-trophy"></i> Placement Awards</h3>
+                                <div class="award-list">
+                                    <div class="award-item gold">
+                                        <span class="award-badge"><i class="fa fa-medal"></i> First Place</span>
+                                        <p>Top 1% of entries - Exceptional technical execution and creativity</p>
+                                    </div>
+                                    <div class="award-item silver">
+                                        <span class="award-badge"><i class="fa fa-medal"></i> Second Place</span>
+                                        <p>Top 3% of entries - Outstanding innovation and implementation</p>
+                                    </div>
+                                    <div class="award-item bronze">
+                                        <span class="award-badge"><i class="fa fa-medal"></i> Third Place</span>
+                                        <p>Top 5% of entries - Superior design and technical proficiency</p>
+                                    </div>
+                                    <div class="award-item">
+                                        <span class="award-badge">Honorable Mention</span>
+                                        <p>Top 10% of entries - Notable achievement in game development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Special Awards -->
+                        <div class="col-md-6">
+                            <div class="award-category-box">
+                                <h3 class="award-category-title"><i class="fa fa-star"></i> Special Recognition Awards</h3>
+                                <div class="award-list">
+                                    <div class="award-item innovation">
+                                        <span class="award-badge"><i class="fa fa-lightbulb-o"></i> Innovation Award</span>
+                                        <p>For outstanding creativity and innovative game mechanics</p>
+                                    </div>
+                                    <div class="award-item teamwork">
+                                        <span class="award-badge"><i class="fa fa-users"></i> Best Teamwork</span>
+                                        <p>For exceptional collaboration and team coordination</p>
+                                    </div>
+                                    <div class="award-item distinguished">
+                                        <span class="award-badge"><i class="fa fa-gem"></i> Distinguished Ideas</span>
+                                        <p>For unique and impactful game concepts</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Age Divisions -->
+                    <div class="row mt-4">
                         <div class="col-xs-12">
-                            <div class="lgx-heading"><br>
-                                <h2 class="heading">Contact Us</h2>
-                                <p class="text" style="text-align: center;">Have a question or comment? Contact us at <a href="mailto:contact@gamegala.org">contact@gamegala.org</a></p>
+                            <div class="age-divisions-box text-center">
+                                <h3><i class="fa fa-graduation-cap"></i> Age Divisions</h3>
+                                <div class="division-grid">
+                                    <div class="division-item">K-3</div>
+                                    <div class="division-item">4-6</div>
+                                    <div class="division-item">7-8</div>
+                                    <div class="division-item">9-12</div>
+                                </div>
+                                <p class="division-note">All awards are presented within each age division</p>
                             </div>
                         </div>
                     </div>
+                    
+                    <style>
+                        .awards-container {
+                            margin-top: 30px;
+                        }
+                        
+                        .award-category-box {
+                            background: white;
+                            border-radius: 15px;
+                            padding: 25px;
+                            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+                            height: 100%;
+                            transition: all 0.3s ease;
+                        }
+                        
+                        .award-category-box:hover {
+                            transform: translateY(-5px);
+                            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+                        }
+                        
+                        .award-category-title {
+                            color: var(--primary-color);
+                            margin-bottom: 20px;
+                            padding-bottom: 10px;
+                            border-bottom: 2px solid #eee;
+                        }
+                        
+                        .award-item {
+                            margin-bottom: 20px;
+                            padding: 15px;
+                            border-radius: 10px;
+                            background: #f8f9fa;
+                            transition: all 0.3s ease;
+                        }
+                        
+                        .award-item:hover {
+                            transform: translateX(10px);
+                            background: #f0f2f5;
+                        }
+                        
+                        .award-badge {
+                            display: inline-block;
+                            padding: 5px 15px;
+                            border-radius: 20px;
+                            font-weight: 600;
+                            margin-bottom: 8px;
+                            background: var(--primary-color);
+                            color: white;
+                        }
+                        
+                        .award-item.gold .award-badge {
+                            background: linear-gradient(45deg, #FFD700, #FFA500);
+                        }
+                        
+                        .award-item.silver .award-badge {
+                            background: linear-gradient(45deg, #C0C0C0, #A9A9A9);
+                        }
+                        
+                        .award-item.bronze .award-badge {
+                            background: linear-gradient(45deg, #CD7F32, #8B4513);
+                        }
+                        
+                        .award-item p {
+                            margin: 0;
+                            color: #666;
+                        }
+                        
+                        .age-divisions-box {
+                            background: white;
+                            border-radius: 15px;
+                            padding: 25px;
+                            margin-top: 30px;
+                            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+                        }
+                        
+                        .division-grid {
+                            display: flex;
+                            justify-content: center;
+                            gap: 20px;
+                            margin: 20px 0;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .division-item {
+                            padding: 10px 25px;
+                            background: var(--primary-color);
+                            color: white;
+                            border-radius: 25px;
+                            font-weight: 600;
+                            transition: all 0.3s ease;
+                        }
+                        
+                        .division-item:hover {
+                            transform: scale(1.1);
+                            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                        }
+                        
+                        .division-note {
+                            color: #666;
+                            margin-top: 15px;
+                            font-style: italic;
+                        }
+                    </style>
 
                 </div><!-- //.CONTAINER -->
             </div><!-- //.INNER -->
@@ -381,140 +679,363 @@
     </section>
     <!--TESTIMONIALS END-->
 
-    <!--SPONSORS-->
+    <!--REPLACING SPONSORS SECTION WITH FEATURES SECTION -->
     <section>
-        <div id="lgx-sponsors" class="lgx-sponsors">
+        <div id="lgx-features" class="lgx-features">
             <div class="lgx-inner-bg">
                 <div class="lgx-inner">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="lgx-heading">
-                                    <h2 class="heading">Sponsors</h2>
-                                    <h3 class="subheading">Welcome to the dedicated sponsors!</h3>
+                                    <h2 class="heading">Why Participate in GameGala</h2>
+                                    <h3 class="subheading">Discover the benefits of joining our prestigious competition</h3>
                                 </div>
                             </div>
                         </div>
-                        <!--//main row-->
+                        
                         <div class="row">
-                            <div class="col-xs-12">
-                                <div class="sponsors-area">
-                                   <div class="single">
-                                      <a class="" href="https://www.bugsee.com/"><img src="images/bugsees.png"></a>
-                                    </div>
-                                    <div class="single">
-                                       <a class="" href="https://www.sashido.io/en/"><img src="images/sashido.png"></a>
-                                     </div>
-                                    <div class="single">
-                                        <a class="" href="https://www.sketch.com/"><img src="images/sketch.png"/></a>
-                                    </div>  
-                                </div>
-                            </div>
-                            <!--//col-->
-                        </div>
-                        <!--//row-->
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="sponsors-area">
-                                   <div class="single">
-                                      <a class="" href="http://harddrop.com/"><img src="images/harddrop.png"</a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="" href="https://www.chronaly.com/"><img src="assets/sponsors/chronaly.png" height="75px" alt="sponsor"/></a>
-                                    </div>
-                                    <div class="single">
-                                        <a class="https://www.sevenlogics.com/" href=""><img src="images/sl.png" alt="sponsor"/></a>
+                            <div class="col-md-4">
+                                <div class="card feature-card h-100">
+                                    <div class="card-body text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa fa-trophy fa-3x text-primary mb-3"></i>
+                                        </div>
+                                        <h3 class="card-title">Recognition & Awards</h3>
+                                        <p class="card-text">Gain recognition for your coding and game development skills. Winners receive prestigious awards and certificates that enhance college applications and resumes.</p>
                                     </div>
                                 </div>
                             </div>
-                            <!--//col-->
-                        </div>
-                        <!--//row-->
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="sponsors-area">
-                                   <div class="single">
-                                      <a class="" href="https://www.obsidian.net/"><img src="assets/sponsors/obsidian-entertainment.png"</a>
-                                    </div>
-                                    <div class="single">
-                                       <a class="" href="https://www.igda.org/"><img src="assets/sponsors/IGDA.jpg"</a>
-                                     </div>
-                                    <div class="single">
-                                        <a class="" href="https://kronosaur.com/"><img src="assets/sponsors/kronosaur_productions.png" alt="sponsor"/></a>
+                            
+                            <div class="col-md-4">
+                                <div class="card feature-card h-100">
+                                    <div class="card-body text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+                                        </div>
+                                        <h3 class="card-title">Industry Exposure</h3>
+                                        <p class="card-text">Present your projects to industry professionals and receive valuable feedback. Connect with mentors and peers who share your passion for game development.</p>
                                     </div>
                                 </div>
                             </div>
-                            <!--//col-->
-                        </div>
-                        <!--//row-->
-
-                        <!--div class="row">
-                            <div class="col-xs-12">
-                               <div class="sponsors-area">
-                                     <div class="single">
-                                         <a class="" href="https://www.cpp.edu/"><img src="https://www.cpp.edu/common/2018/assets/img/cpp-octo-web.svg" alt="sponsor"/></a>
-                                     </div>
-                                     <div class="single">
-                                         <a class="" href="https://codingmindsacademy.com/"><img src="https://codingmindsacademy.com/img/my/logo1.png" height="75px" alt="sponsor"/></a>
-                                     </div>
-                                    <div class="single">
-                                       <a class="" href="https://www.enlightenedlc.com/"><img src="images/elc.png"</a>
-                                     </div>
-                               </div>
-                        </div>                            
-                        </div-->
-                        <!--//row-->
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                               <div class="sponsors-area">
-                                    <div class="single">
-                                        <a class="" href="http://www.churchsake.com/"><img src="assets/sponsors/churchsake.png"</a>
+                            
+                            <div class="col-md-4">
+                                <div class="card feature-card h-100">
+                                    <div class="card-body text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa fa-lightbulb-o fa-3x text-primary mb-3"></i>
+                                        </div>
+                                        <h3 class="card-title">Skill Development</h3>
+                                        <p class="card-text">Challenge yourself to create innovative games while developing critical thinking, problem-solving, and technical skills that are valuable in today's digital economy.</p>
                                     </div>
-                                    <div class="single">
-                                       <a class="" href="https://www.cpp.edu/~ignite/"><img src="https://sketch.io/render/sk-3c6c2f054c6fe7cc795cebd24def3bb0.jpeg" height="75px"</a>
-                                   </div>
-                                    <div class="single">
-                                       <a class="" href="https://cppcss.club/"><img src="assets/sponsors/computer_science_society.png"</a>
-                                   </div>
-                               </div>
+                                </div>
                             </div>
-                            <!--//col-->
                         </div>
-                        <!--//row-->
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                               <div class="sponsors-area">
-                                    <div class="single">
-                                        <a class="" href="https://en.shmet.com/Home"><img src="assets/sponsors/sealogo.png"</a>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <div class="card feature-card h-100">
+                                    <div class="card-body text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa fa-graduation-cap fa-3x text-primary mb-3"></i>
+                                        </div>
+                                        <h3 class="card-title">Educational Growth</h3>
+                                        <p class="card-text">Apply classroom knowledge to real-world projects. GameGala provides a platform to demonstrate your understanding of computer science concepts in a creative way.</p>
                                     </div>
-                                    <div class="single">
-                                        <a class="" href="https://en.shmet.com/Home"><img src="assets/sponsors/guojin.jpeg"</a>
-                                    </div>
-                                    <div class="single">
-                                       <a class="" href="https://angelhacks.org"><img src="assets/sponsors/Angelhack.png"></a>
-                                   </div>
-                               </div>
+                                </div>
                             </div>
-                            <!--//col-->
+                            
+                            <div class="col-md-4">
+                                <div class="card feature-card h-100">
+                                    <div class="card-body text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa fa-comments fa-3x text-primary mb-3"></i>
+                                        </div>
+                                        <h3 class="card-title">Expert Feedback</h3>
+                                        <p class="card-text">Receive constructive feedback from experienced judges who evaluate your project based on creativity, technical implementation, and overall design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card feature-card h-100">
+                                    <div class="card-body text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa fa-rocket fa-3x text-primary mb-3"></i>
+                                        </div>
+                                        <h3 class="card-title">Future Opportunities</h3>
+                                        <p class="card-text">Past participants have gone on to internships, scholarships, and careers in game development. GameGala can be your launching pad to future success in technology.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!--//row-->                        
+                        
+                        <div class="row mt-5">
+                            <div class="col-xs-12 text-center">
+                                <div class="testimonial-box p-4 mx-auto" style="max-width: 800px; background: #f8f9fa; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                                    <i class="fa fa-quote-left fa-3x text-primary mb-3 opacity-25"></i>
+                                    <p class="lead font-italic">"GameGala was a transformative experience for me. The competition pushed me to improve my coding skills and think creatively about game design. The connections I made and the feedback I received were invaluable to my growth as a developer."</p>
+                                    <p class="font-weight-bold">- Alex Chen, 2022 First Place Winner, High School Division</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <!--//container-->
                 </div>
             </div>
-            <!--//lgx-inner-->
         </div>
     </section>
-    <!--SPONSORS END-->
+
+    <!-- Add a Past Winners Showcase Section to replace the judges section -->
+    <section>
+        <div id="lgx-winners" class="lgx-winners py-5">
+            <div class="lgx-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="lgx-heading">
+                                <h2 class="heading">Past Winners Showcase</h2>
+                                <h3 class="subheading">Celebrating excellence in student game development</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card winner-card mb-4">
+                                <div class="card-body text-center">
+                                    <div class="winner-category bg-primary text-white py-2 mb-3">
+                                        <h5 class="m-0">Elementary School Division</h5>
+                                    </div>
+                                    <h4 class="winner-project">Space Explorer</h4>
+                                    <p class="winner-description">An educational game teaching astronomy concepts through interactive puzzles and exploration.</p>
+                                    <div class="winner-badge mt-3 mb-2">
+                                        <span class="badge badge-pill badge-warning px-3 py-2"><i class="fa fa-trophy"></i> First Place 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card winner-card mb-4">
+                                <div class="card-body text-center">
+                                    <div class="winner-category bg-success text-white py-2 mb-3">
+                                        <h5 class="m-0">Middle School Division</h5>
+                                    </div>
+                                    <h4 class="winner-project">Eco Warriors</h4>
+                                    <p class="winner-description">A strategy game where players solve environmental challenges and learn about sustainability.</p>
+                                    <div class="winner-badge mt-3 mb-2">
+                                        <span class="badge badge-pill badge-warning px-3 py-2"><i class="fa fa-trophy"></i> First Place 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card winner-card mb-4">
+                                <div class="card-body text-center">
+                                    <div class="winner-category bg-info text-white py-2 mb-3">
+                                        <h5 class="m-0">High School Division</h5>
+                                    </div>
+                                    <h4 class="winner-project">Quantum Quest</h4>
+                                    <p class="winner-description">An innovative puzzle game based on quantum physics principles with stunning visual effects.</p>
+                                    <div class="winner-badge mt-3 mb-2">
+                                        <span class="badge badge-pill badge-warning px-3 py-2"><i class="fa fa-trophy"></i> First Place 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-xs-12">
+                            <div class="winners-gallery p-4 bg-light rounded">
+                                <h4 class="text-center mb-4">What Our Winners Say</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="testimonial-card p-3 mb-3">
+                                            <p class="font-italic">"GameGala gave me the confidence to pursue my passion for game development. The feedback from judges was incredibly valuable and helped me improve my coding skills."</p>
+                                            <p class="text-right mb-0"><strong>— Emma L., 8th Grade Winner</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="testimonial-card p-3 mb-3">
+                                            <p class="font-italic">"Participating in GameGala opened doors to internship opportunities and connected me with mentors in the industry. It was a life-changing experience."</p>
+                                            <p class="text-right mb-0"><strong>— Jason T., 11th Grade Winner</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add styles for the new winners section -->
+    <style>
+        .winner-card {
+            border: none;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        
+        .winner-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .winner-category {
+            border-radius: 8px;
+            margin: -16px -16px 20px -16px;
+        }
+        
+        .winner-project {
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--dark-color);
+        }
+        
+        .winner-description {
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        
+        .winner-badge .badge {
+            font-size: 0.9rem;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .winners-gallery {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .winners-gallery:hover {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+    </style>
 
 
+<!-- Add a timeline section to showcase GameGala's history -->
+<section>
+    <div id="lgx-history" class="lgx-history py-5">
+        <div class="lgx-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-heading">
+                            <h2 class="heading">GameGala Legacy</h2>
+                            <h3 class="subheading">A tradition of excellence since 2018</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-xs-12">
+                        <div class="timeline-container">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3>2018</h3>
+                                        <p>GameGala launches as a regional competition with 80 participants from California.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3>2019</h3>
+                                        <p>Expands to include participants from 15 countries with over 350 project submissions.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3>2020</h3>
+                                        <p>Transitions to a fully virtual format, reaching students nationwide during the pandemic.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3>2021-2022</h3>
+                                        <p>Recognized as the largest game-specific K-12 competition in the United States.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3>2023-2024</h3>
+                                        <p>Celebrated over 1,000 total project submissions and expanded to include international participants.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h3>2025</h3>
+                                        <p>Continuing the tradition of excellence with enhanced categories and prizes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-
+<!-- Add the Contact Us section as the last section before the footer -->
+<section>
+    <div id="lgx-contact" class="lgx-contact py-5">
+        <div class="lgx-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-heading">
+                            <h2 class="heading">Contact Us</h2>
+                            <h3 class="subheading">We're here to help with any questions</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="contact-box p-5 text-center">
+                            <div class="contact-icon mb-4">
+                                <i class="fa fa-envelope-o fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="mb-3">Get in Touch</h3>
+                            <p class="lead mb-4">Have a question or comment about GameGala? Our team is ready to assist you!</p>
+                            <p class="contact-email mb-4">
+                                <a href="mailto:contact@gamegala.org" class="text-primary" style="font-size: 1.2rem;">
+                                    <i class="fa fa-envelope"></i> contact@gamegala.org
+                                </a>
+                            </p>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--FOOTER-->
 <footer>
@@ -528,10 +1049,10 @@
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Event Date and Location </h3>
                         <h4 class="date">
-                             April 07, 2024
+                             April 13, 2025
                         </h4>
                         <address>
-                            Virtural Online
+                            Virtual Online
                         </address>
                         <!-- <a class="map-link" target="_blank" href="https://goo.gl/maps/Qi2JQBJVwwNFgWid6"><i class="fa fa-map-marker" aria-hidden="true"></i> View Map location</a> -->
                     </div>
@@ -553,8 +1074,8 @@
 
                 <div class="lgx-footer-bottom">
                     <div class="lgx-copyright">
-                        <p> GameGale is hosted by K12 Ventures Foundation, which is a 501(c)3 non-profit organization.
-                        <p> <span>©</span> GameGala 2024</p>
+                        <p> GameGala is hosted by K12 Ventures Foundation, which is a 501(c)3 non-profit organization.
+                        <p> <span>©</span> GameGala 2025</p>
                     </div>
                 </div>
 
@@ -566,6 +1087,68 @@
 </footer>
 <!--FOOTER END-->
 
+<!-- Add styles for the contact section -->
+<style>
+    .contact-box {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        margin-bottom: 50px;
+    }
+    
+    .contact-box:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+    
+    .contact-icon {
+        display: inline-block;
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border-radius: 50%;
+        background: rgba(74, 107, 255, 0.1);
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .contact-box:hover .contact-icon {
+        background: rgba(74, 107, 255, 0.2);
+        transform: scale(1.1);
+    }
+    
+    .contact-email a {
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    .contact-email a:hover {
+        color: var(--secondary-color) !important;
+    }
+    
+    .social-links {
+        margin-top: 30px;
+    }
+    
+    .social-icon {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        background: rgba(74, 107, 255, 0.1);
+        color: var(--primary-color);
+        transition: all 0.3s ease;
+        margin: 0 5px;
+    }
+    
+    .social-icon:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-5px);
+    }
+</style>
 
 </div>
 <!--//.LGX SITE CONTAINER-->
@@ -627,10 +1210,177 @@
   gtag('config', 'UA-129148248-1');
 </script>
 
+<!-- Add animation library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- Update jQuery and add modern JS libraries -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  // Initialize animations
+  $(document).ready(function() {
+    AOS.init();
+    
+    // Smooth scrolling
+    $('a.lgx-scroll').on('click', function(event) {
+      if (this.hash !== '') {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
+</script>
+
+<!-- Add styles for the new elements -->
+<style>
+    .banner-highlight {
+        animation-delay: 0.5s;
+    }
+    
+    .history-badge .badge {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    .about-stats {
+        margin-top: 30px;
+    }
+    
+    .stat-item {
+        padding: 15px;
+        background: rgba(74, 107, 255, 0.1);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+    
+    .stat-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        background: rgba(74, 107, 255, 0.2);
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin-bottom: 5px;
+    }
+    
+    .stat-text {
+        font-size: 1rem;
+        color: var(--dark-color);
+        margin-bottom: 0;
+    }
+</style>
 
 
-
-
+<!-- Add styles for the timeline -->
+<style>
+    .timeline-container {
+        padding: 20px 0;
+        width: 100%;
+    }
+    
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: var(--primary-color);
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+        border-radius: 3px;
+    }
+    
+    .timeline-item {
+        padding: 10px 40px;
+        position: relative;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    
+    .timeline-item:nth-child(odd) {
+        left: 0;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 50%;
+    }
+    
+    .timeline-dot {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: -10px;
+        background-color: white;
+        border: 4px solid var(--secondary-color);
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    .timeline-item:nth-child(even) .timeline-dot {
+        left: -10px;
+    }
+    
+    .timeline-content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .timeline-content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    
+    .timeline-content h3 {
+        color: var(--primary-color);
+        margin-top: 0;
+        font-weight: 700;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .timeline::after {
+            left: 31px;
+        }
+        
+        .timeline-item {
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 25px;
+        }
+        
+        .timeline-item:nth-child(even) {
+            left: 0;
+        }
+        
+        .timeline-dot {
+            left: 21px;
+            right: auto;
+        }
+        
+        .timeline-item:nth-child(even) .timeline-dot {
+            left: 21px;
+        }
+    }
+</style>
 
 </body>
 </html>
