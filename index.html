@@ -170,6 +170,78 @@
         color: #0f172a !important;
       }
 
+      .btn-zoom {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #fff !important;
+        padding: 24px 56px;
+        border-radius: 18px;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-decoration: none !important;
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 32px rgba(37,99,235,0.5);
+        border: none;
+        position: relative;
+      }
+
+      .btn-zoom::before {
+        content: '';
+        position: absolute;
+        inset: -4px;
+        border-radius: 22px;
+        background: linear-gradient(135deg, #60a5fa, #2563eb);
+        z-index: -1;
+        opacity: 0.4;
+        filter: blur(12px);
+        animation: zoom-pulse 2.2s ease-in-out infinite;
+      }
+
+      @keyframes zoom-pulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.75; }
+      }
+
+      .btn-zoom:hover {
+        background: linear-gradient(135deg, #1d4ed8, #1e40af);
+        transform: translateY(-3px);
+        box-shadow: 0 14px 44px rgba(37,99,235,0.6);
+        color: #fff !important;
+      }
+
+      .btn-zoom i { font-size: 1.6rem; }
+
+      .live-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(239,68,68,0.2);
+        border: 1px solid rgba(248,113,113,0.5);
+        color: #fecaca;
+        padding: 12px 24px;
+        border-radius: 50px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      .live-dot {
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        background: #ef4444;
+        box-shadow: 0 0 0 0 rgba(239,68,68,0.8);
+        animation: live-blink 1.6s ease-in-out infinite;
+      }
+
+      @keyframes live-blink {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.8); }
+        50% { box-shadow: 0 0 0 10px rgba(239,68,68,0); }
+      }
+
       .btn-outline {
         display: inline-flex;
         align-items: center;
@@ -1034,34 +1106,37 @@
 <section class="hero">
     <div class="container">
         <div class="hero-inner" data-aos="fade-up" data-aos-duration="800">
+            <div class="live-pill">
+                <span class="live-dot"></span> Finals &middot; Sunday, April 19, 2026
+            </div>
             <div class="hero-badge">
                 <i class="fa fa-star"></i>
                 America's Largest K-12 Game Development Competition
             </div>
-            <h1>GameGala <span class="year">2026</span></h1>
-            <p class="hero-sub">Stop playing games. Start building them.</p>
+            <h1>GameGala <span class="year">2026</span> Finals</h1>
+            <p class="hero-sub">Finalists: join the live Zoom on Sunday, April 19 at 9:30 AM PT. Check-in opens at 9:30 AM, judging runs 10:00 AM&ndash;12:00 PM.</p>
 
             <div class="hero-cta">
-                <a class="btn-register" href="https://csfoundation.wufoo.com/forms/p11s3tjp18scetc/" target="_blank">
-                    <i class="fa fa-rocket"></i> Register Now
+                <a class="btn-zoom" href="https://zoom.us/j/86175135286" target="_blank" rel="noopener">
+                    <i class="fa fa-video-camera"></i> Join Contest on Zoom
                 </a>
-                <a class="btn-outline" href="#about">
-                    <i class="fa fa-arrow-down"></i> Learn More
+                <a class="btn-outline" href="#ready">
+                    <i class="fa fa-check-circle"></i> How to Get Ready
                 </a>
             </div>
 
             <div class="hero-dates" data-aos="fade-up" data-aos-delay="200">
                 <div class="hero-date">
-                    <div class="dl">Submission Deadline</div>
-                    <div class="dv">Apr 5, 2026</div>
+                    <div class="dl">Finals Date</div>
+                    <div class="dv">Sun, Apr 19, 2026</div>
                 </div>
                 <div class="hero-date">
-                    <div class="dl">Semi-Finalists</div>
-                    <div class="dv">Apr 12, 2026</div>
+                    <div class="dl">Check-in</div>
+                    <div class="dv">9:30 AM PT</div>
                 </div>
                 <div class="hero-date">
-                    <div class="dl">Final Judging</div>
-                    <div class="dv">Apr 19, 2026</div>
+                    <div class="dl">Judging</div>
+                    <div class="dv">10:00 AM&ndash;12:00 PM PT</div>
                 </div>
             </div>
         </div>
@@ -1120,26 +1195,31 @@
 
         <div class="date-cards" data-aos="fade-up" data-aos-delay="100">
             <div class="date-card c1">
-                <div class="ic"><i class="fa fa-calendar-check-o"></i></div>
-                <h4>Submission</h4>
-                <div class="dt">Apr 5, 2026</div>
+                <div class="ic"><i class="fa fa-sign-in"></i></div>
+                <h4>Student Check-in</h4>
+                <div class="dt">9:30 AM PT</div>
             </div>
             <div class="date-card c2">
-                <div class="ic"><i class="fa fa-trophy"></i></div>
-                <h4>Semi-Finalists</h4>
-                <div class="dt">Apr 12, 2026</div>
+                <div class="ic"><i class="fa fa-gavel"></i></div>
+                <h4>Live Judging</h4>
+                <div class="dt">10:00 AM&ndash;12:00 PM</div>
             </div>
             <div class="date-card c3">
-                <div class="ic"><i class="fa fa-star"></i></div>
-                <h4>Final Judging</h4>
-                <div class="dt">Apr 19, 2026</div>
+                <div class="ic"><i class="fa fa-trophy"></i></div>
+                <h4>Winners Announced</h4>
+                <div class="dt">Apr 20, 2026</div>
             </div>
         </div>
 
         <div data-aos="fade-up" data-aos-delay="200">
-            <div class="cd-label">Time Until Submission Deadline</div>
+            <div class="cd-label">Time Until Finals Check-in</div>
             <div class="cd-area">
-                <div id="lgx-countdown" data-date="2026/4/6"></div>
+                <div id="lgx-countdown" data-date="2026/4/19 09:30:00"></div>
+                <div style="text-align:center; margin-top: 36px;">
+                    <a class="btn-zoom" href="https://zoom.us/j/86175135286" target="_blank" rel="noopener">
+                        <i class="fa fa-video-camera"></i> Join Contest on Zoom
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -1150,103 +1230,115 @@
 <section class="sec sec-dark">
     <div class="container">
         <div class="sec-head" data-aos="fade-up">
-            <span class="tag">Finals Day</span>
-            <h2>Event Schedule</h2>
+            <span class="tag">Sunday, April 19, 2026</span>
+            <h2>Finals Day Schedule</h2>
+            <p class="desc" style="color:#94a3b8;">All times Pacific. Join via the Zoom button below — the same link is used throughout the day.</p>
         </div>
 
         <div class="sched-list" data-aos="fade-up" data-aos-delay="100">
             <div class="sched-item">
-                <div class="time">9:30 AM &ndash; 10:00 AM</div>
+                <div class="time">9:30 AM &ndash; 10:00 AM PT</div>
                 <h4>Student Check-in</h4>
-                <p>Finalists join and get assigned to breakout rooms.</p>
+                <p>Join Zoom, confirm your name matches your registration, and get assigned to a breakout room.</p>
             </div>
             <div class="sched-item">
-                <div class="time">10:00 AM &ndash; 12:00 PM</div>
-                <h4>Judging Period</h4>
-                <p>Live online demos and judge evaluations.</p>
+                <div class="time">10:00 AM &ndash; 12:00 PM PT</div>
+                <h4>Live Judging</h4>
+                <p>Present your project in your breakout room. Share your screen, demo the game, and answer judges' questions.</p>
             </div>
             <div class="sched-item">
-                <div class="time">1:00 PM &ndash; 5:00 PM</div>
-                <h4>Winner Discussion</h4>
-                <p>Judges deliberate. Winners announced online and by email.</p>
+                <div class="time">1:00 PM PT &ndash; End of Day</div>
+                <h4>Winner Deliberation</h4>
+                <p>Judges deliberate. Winners will be announced on Monday, April 20, 2026 on the website and by email.</p>
             </div>
+        </div>
+
+        <div style="text-align:center; margin-top: 56px;" data-aos="fade-up" data-aos-delay="200">
+            <a class="btn-zoom" href="https://zoom.us/j/86175135286" target="_blank" rel="noopener">
+                <i class="fa fa-video-camera"></i> Join Contest on Zoom
+            </a>
         </div>
     </div>
 </section>
 
 
-<!-- ====== RULES ====== -->
+<!-- ====== FINALS DAY GUIDELINES ====== -->
 <section class="sec sec-white">
     <div class="container">
         <div class="sec-head" data-aos="fade-up">
-            <span class="tag">Guidelines</span>
-            <h2>Competition Rules</h2>
+            <span class="tag">Finals Day Guidelines</span>
+            <h2>What to Expect on Zoom</h2>
         </div>
 
         <div class="rules-grid" data-aos="fade-up" data-aos-delay="100">
             <div class="rule-card">
                 <div class="rule-num">1</div>
-                <h4>Eligibility</h4>
-                <p>Must be enrolled in grades K-12. Divisions: K-3, 4-6, 7-8, and 9-12. Team division is set by the highest grade.</p>
+                <h4>Join on Time</h4>
+                <p>Check-in opens at 9:30 AM PT. Log in with the name used on your registration so staff can place you in the correct breakout room.</p>
             </div>
             <div class="rule-card">
                 <div class="rule-num">2</div>
-                <h4>One Entry Per Student</h4>
-                <p>One entry per year. Teams up to 3 members. Team projects face higher expectations.</p>
+                <h4>Present Your Project</h4>
+                <p>Share your screen, run your game live, and walk judges through your code. Plan for roughly 5&ndash;7 minutes of demo plus Q&amp;A.</p>
             </div>
             <div class="rule-card">
                 <div class="rule-num">3</div>
-                <h4>Competition Day</h4>
-                <p>Join via live Zoom to demo your game and code. Judges will ask questions.</p>
+                <h4>Teams</h4>
+                <p>All teammates should join the same Zoom. Decide in advance who shares the screen and who speaks to each part of the project.</p>
             </div>
             <div class="rule-card">
                 <div class="rule-num">4</div>
                 <h4>Supervision</h4>
-                <p>Students must be supervised by a parent, teacher, or authorized adult.</p>
+                <p>Students under 18 must have a parent, teacher, or authorized adult nearby during the session.</p>
             </div>
         </div>
     </div>
 </section>
 
 
-<!-- ====== SUBMISSION ====== -->
-<section class="sec sec-gray">
+<!-- ====== GET READY ====== -->
+<section id="ready" class="sec sec-gray">
     <div class="container">
         <div class="sec-head" data-aos="fade-up">
-            <span class="tag">How to Enter</span>
-            <h2>Project Submission</h2>
+            <span class="tag">Finalist Prep</span>
+            <h2>Get Ready for Finals</h2>
+            <p class="desc">Run through this checklist before Sunday so nothing goes wrong during your live demo.</p>
         </div>
 
         <div class="steps" data-aos="fade-up" data-aos-delay="100">
             <div class="step">
                 <div class="sn">1</div>
-                <div><p>Complete the <strong>online registration</strong> (student or parent/guardian).</p></div>
+                <div><p><strong>Install &amp; test Zoom.</strong> Update to the latest version, sign in, and try <strong>Screen Share</strong> once so the permission prompt is out of the way. On a Mac, enable Screen Recording in System Settings for Zoom.</p></div>
             </div>
             <div class="step">
                 <div class="sn">2</div>
-                <div><p>Include a <strong>project summary</strong>. One summary per team is sufficient.</p></div>
+                <div><p><strong>Check your mic, camera, and internet.</strong> Use a quiet room, wired or strong Wi-Fi, and headphones if possible. A short audio/video test in Zoom &gt; Settings takes 60 seconds.</p></div>
             </div>
             <div class="step">
                 <div class="sn">3</div>
-                <div><p>Submit a <strong>2-minute YouTube video</strong> demoing your project (public URL).</p></div>
+                <div><p><strong>Launch your game the night before.</strong> Make sure it builds and runs from a clean start. Close other tabs and apps to keep the demo smooth.</p></div>
             </div>
             <div class="step">
                 <div class="sn">4</div>
-                <div><p>Your project must be a <strong>coding project with a creative or game-inspired element</strong> &mdash; a playable game, interactive experience, simulation, or any fun technical program.</p></div>
+                <div><p><strong>Open your code editor with the project loaded.</strong> Judges may ask you to walk through the code &mdash; have key files bookmarked or pinned.</p></div>
             </div>
             <div class="step">
                 <div class="sn">5</div>
-                <div><p>Projects can build on existing ideas but must include your own original work. Tutorial-only projects are not accepted.</p></div>
+                <div><p><strong>Prepare a 2&ndash;3 minute walkthrough.</strong> What is the game, how do you play it, what was the hardest part to build, and what are you most proud of? Practice out loud once.</p></div>
             </div>
             <div class="step">
                 <div class="sn">6</div>
-                <div><p><strong>$20 application fee</strong> (non-refundable). <strong>Deadline: 11:59 PM PST, April 5, 2026.</strong></p></div>
+                <div><p><strong>Join your Zoom display name as &ldquo;First Last Name &mdash; Grade &mdash; Project Entry&rdquo;.</strong> Make sure you know your <strong>Project Entry ID</strong> before joining &mdash; it's in your registration confirmation email. This helps staff route you to the correct breakout room quickly.</p></div>
+            </div>
+            <div class="step">
+                <div class="sn">7</div>
+                <div><p><strong>Log in 5&ndash;10 minutes early.</strong> Check-in opens at 9:30 AM PT on Sunday, April 19. A parent, teacher, or authorized adult should be nearby.</p></div>
             </div>
         </div>
 
         <div class="cta-center" data-aos="fade-up" data-aos-delay="200">
-            <a class="btn-submit" href="https://csfoundation.wufoo.com/forms/p11s3tjp18scetc/" target="_blank">
-                <i class="fa fa-paper-plane"></i> Submit Your Project
+            <a class="btn-zoom" href="https://zoom.us/j/86175135286" target="_blank" rel="noopener">
+                <i class="fa fa-video-camera"></i> Join Contest on Zoom
             </a>
         </div>
     </div>
@@ -1452,10 +1544,10 @@
 <!-- ====== CTA BANNER ====== -->
 <section class="cta-banner">
     <div class="container" style="position: relative; z-index: 2;" data-aos="fade-up">
-        <h2>Ready to Build Something Amazing?</h2>
-        <p>Registration is open. Deadline: April 5, 2026.</p>
-        <a class="btn-cta" href="https://csfoundation.wufoo.com/forms/p11s3tjp18scetc/" target="_blank">
-            <i class="fa fa-rocket"></i> Register Now
+        <h2>See You on Sunday, Finalists!</h2>
+        <p>Sunday, April 19, 2026 &middot; Check-in at 9:30 AM PT &middot; Judging 10:00 AM&ndash;12:00 PM PT</p>
+        <a class="btn-cta" href="https://zoom.us/j/86175135286" target="_blank" rel="noopener">
+            <i class="fa fa-video-camera"></i> Join Contest on Zoom
         </a>
     </div>
 </section>
